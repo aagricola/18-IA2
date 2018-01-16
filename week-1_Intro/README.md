@@ -32,8 +32,8 @@ Next week, we will be making interactive video installations in class using Bare
 ## Homework
 Two teams of seven. Each choose a Rube Goldberg Invention with at least seven steps in it.
 [Link](https://www.rubegoldberg.com/artwork/send-late-stayer-home/?c=45)
-Each person should choose a step in the machine and make an animation that evokes what happens in that step.
-You will also design and print or fabricate a physical trigger for the mapped, projected animation. Bring both to class with you next week.  
+Each person should choose a step in the machine and make an animation in processing that evokes what happens in that step. It can be abstract or pictorial. I will show you how to turn it into a .mov file next week. 
+Next week, you will also design and print or fabricate a physical trigger for the mapped, projected animation. You can start planning that for homework too.  
 
 ## Resident Engineer Workshops
 
