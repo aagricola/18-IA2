@@ -18,6 +18,23 @@ The following slideshow presents the beginnings of interactive installation. Thi
 ## Capacitive Touch
 [Slideshow](https://docs.google.com/presentation/d/e/2PACX-1vT-ffr5oNotB4QA9EEm7dnuMZQRRQBuEwBF_M9sP7DskzygoUJWNb1OPCB_SnjRXXnJLSQAoM2ZX97U/pub?start=false&loop=false&delayms=3000)
 
+
+Next week, we will be making interactive video installations in class using Bare Conductive Touch boards and MadMapper.
+
+![redpaperheart](http://www.redpaperheart.com/images/work/hiddenstories/HiddenStories_0012.jpg)
+
+["Hidden Stories"](http://www.redpaperheart.com/work/hiddenstories), Red Paper Heart, 2015
+
+"The exhibit addresses storytelling possibilities of using the 5 senses. Our submission, “Hidden Stories,” explores the secret lives of inanimate objects and the power of listening."
+
+["Mechanique Discursive"](https://vimeo.com/38945809), by Legoman, 2012
+
+## Homework
+Two teams of seven. Each choose a Rube Goldberg Invention with at least seven steps in it.
+[Link](https://www.rubegoldberg.com/artwork/send-late-stayer-home/?c=45)
+Each person should choose a step in the machine and make an animation that evokes what happens in that step.
+You will also design and print or fabricate a physical trigger for the mapped, projected animation. Bring both to class with you next week.  
+
 ## Resident Engineer Workshops
 
 Spring 2018 Workshops with MICA Visiting Engineer Paul Mirel
