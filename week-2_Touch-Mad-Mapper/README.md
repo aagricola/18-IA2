@@ -40,5 +40,13 @@ Collaboration Obstacles:
 3. Don't take anything personally
 4. Do your best
 
+## homework
+
+- Finish the Reading from last weeks folder.
+- Come with one installation from the reading that spoke to you
+    - What is the aim of this installation?
+    - How is it pushing boundaries of art that came before it?
+    - We will discuss at the beginning of class next week. 
+
 ## Resources
 [Bare Conductive Tutorial](https://www.bareconductive.com/make/touch-board-projection-mapping/?utm_source=make&utm_medium=sm&utm_campaign=TB_projection%20mapping)
