@@ -107,6 +107,6 @@ G-code is a numerical control (NC) programming language. It is used in computer-
 
 ## Homework
 
-- Finish your Modularity project. Next week we are going on a field trip leaving at 11am after looking at your Projects. **Bring Your lunch** or you will have time to grab something fast to eat in the harbor at Whole Foods.
-
+- Finish your Modularity project.
+- Next week we are going on a field trip leaving at 11am after looking at your Projects. **Bring Your lunch** or you will have time to grab something fast to eat in the harbor at Whole Foods.
 - Go more in depth with 3d modeling and watch chapters 7 and 8 in the [Lynda Rhino 5 Essentials](https://www.lynda.com/Rhino-tutorials/Daves-golden-construction-strategies-How-analyze-model-like-pro/133324/153915-4.html?autoplay=true)
