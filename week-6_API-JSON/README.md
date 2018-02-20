@@ -2,74 +2,18 @@
 
 ## Today:
 - Critique modularity project
-- Learn about API's
-- What is JSON
-- How to work with JSON Files
+- Document and post to Canvas
+- Enjoy the weather
 
-## API
-
-It stands for Application Programing Interface
-It is the interface that allows two programs to talk!
-API's give you data that is changing over time.
-
-It often requires a key and learning to query (ask for a certain set of data)
-
-Common ways to find data is to first search and then ideally to find some data with existing examples of querying that data
-
-Standard formats that you will find are:
-- CSV - Tabular data (like google spreadsheets)(p5 easily works with CSV)
-- XML
-- JSON - Java Script Object Notation (p5 easily works with JSON)
-- txt Files
-- PDF
-- Data on a web page
-
-## JSON
-
-Remember Objects?
-There is this way of making an object in p5:
-
-  var bug = {
-    name: "june",
-    speed: .5,
-    size: 3
-  }
-
-  then we could access this data in the draw loop by saying:
-
-  text(bug.name, x, x);
-  textSize(bug.size);
-  x += random(-bug.speed, bug.speed);
-
-  This is working with data - just like working with JSON Data
-
-  We could make a separate file with data for every single bug
-  A file titled like your object - bug.json - and in the same project folder
-  without the var and name
-  {
-    "name": "june",
-    "speed": .5,
-    "size": 3,
-  }
-
-  It can get more complex with arrays, and the syntax is very important.
-  You can check your JSON with [a JSON formatter](https://jsonformatter.curiousconcept.com/)
-
-  Then you can load into your sketch by saying
-
-  function preload(){
-  //preload all the datasets
-  bug = loadJSON("bug.json");
-}
-
-  P5 loads Asynchronous - loads data before it moves on to doing things in setup and draw
-
-  [open source repository of JSON files about different topics](https://github.com/dariusk/corpora)
+## Homework
+- Post documentation of projects
+- Get a head start on working with JSON files by watching [Daniel Shiffman's videos, 10.1-10.3](https://www.youtube.com/watch?v=rJaXOFfwGVw&index=1&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
+- Read "Formulating Your Brief", located in today's folder. Still keep an open mind as you read. It will give you helpful things to consider, but we do no have to be so literal in how we translate our data. Think more in terms of the Exploratory model that is mentioned in this chapter.
 
 
-## Water Quality Web Service
+## If you want to start playing with Water Quality Data:
 
-To view API querys online formatted in JSON, [install this chrome extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
+Install this extension to view API querys online formatted in JSON, [install this chrome extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
 
 [This is the server name for the water quality data https://ofmpub.epa.gov/rsig/rsigserver](https://ofmpub.epa.gov/rsig/rsigserver), which you can use to obtain recent data from the Jones Falls sensors. The web service takes a list of parameters (separated by ampersands), which are specified below. I have also included some examples that show how it all fits together.
 
@@ -122,8 +66,3 @@ https://ofmpub.epa.gov/rsig/rsigserver?SERVICE=NWIS&REQUEST=download&SITEID=0158
 
 Example 4: Get the last week of dissolved oxygen data:
 https://ofmpub.epa.gov/rsig/rsigserver?SERVICE=NWIS&REQUEST=download&SITEID=01589485&PARAMS=00300&FORMAT=json&PERIOD=P7D
-
-
-## Homework
-- Experiment and try doing something new with any of the water quality datasets
-- Read "Formulating Your Brief", located in today's folder. Still keep an open mind as you read. It will give you helpful things to consider, but we do no have to be so literal in how we translate our data. Think more in terms of the Exploratory model that is mentioned in this chapter.
