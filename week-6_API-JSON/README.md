@@ -7,7 +7,7 @@
 
 ## Homework
 - Post documentation of projects
-- Get a head start on working with JSON files by watching [Daniel Shiffman's videos, 10.1-10.3](https://www.youtube.com/watch?v=rJaXOFfwGVw&index=1&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
+- Learn what is an API and how to work with JSON files by watching [Daniel Shiffman's videos, 10.1-10.3](https://www.youtube.com/watch?v=rJaXOFfwGVw&index=1&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 - Read "Formulating Your Brief", located in today's folder. Still keep an open mind as you read. It will give you helpful things to consider, but we do no have to be so literal in how we translate our data. Think more in terms of the Exploratory model that is mentioned in this chapter.
 
 
