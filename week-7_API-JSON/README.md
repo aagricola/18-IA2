@@ -131,4 +131,6 @@ https://ofmpub.epa.gov/rsig/rsigserver?SERVICE=NWIS&REQUEST=download&SITEID=0158
 
 If you are interested in working in Processing, that is very easy. Especially if you read [this section on working with data in Processing](https://processing.org/tutorials/data/), by Daniel Shiffman.
 
+[Learning Processing - Data, Github repository](https://github.com/shiffman/LearningProcessing/tree/master/chp18_data)
+
 [Daniel Shiffman video of using Open Weather API](https://www.youtube.com/watch?v=ecT42O6I_WI)
