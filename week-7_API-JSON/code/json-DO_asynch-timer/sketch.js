@@ -4,7 +4,8 @@ var x =0; //for animate
 function setup() {
   createCanvas(600, 600);
 // setInterval is a JavaScript function that repeats a specified time interval
-  setInterval(askDO, 1000); //now loadJSON is in
+askDO();
+ setInterval(askDO, 5000); //now loadJSON is in
 }
 
 //function for calling and loading the data 
@@ -12,9 +13,11 @@ function gotData(data) {
   //print(data);
   //hold our data so we can use it in draw
   temp = data;
+
 }
 
 function draw() {
+
   var from = color(255, 120, 0); //color to lerp from
   var to = color(0, 102, 153) //color to lerp to
   interp = lerpColor(from, to, .6); //interpolated color
@@ -34,7 +37,7 @@ function draw() {
       //ellipse(mapDO, mapDO, random(1, 200), random(1, 200));
 
       //change color and location of ellipses with conditional logic
-      print(mapDO);
+     // print(mapDO);
       if (mapDO < 311) {
         stroke(from);
         ellipse(mapDO, mapDO, random(1, 200), random(1, 200));
@@ -64,6 +67,8 @@ function animate(){
 function askDO(){
   //loading JSON from a URL path. gotData is the callback, jsonp is for security  reasons
   loadJSON("https://ofmpub.epa.gov/rsig/rsigserver?SERVICE=NWIS&REQUEST=download&SITEID=01589485&PARAMS=00300&FORMAT=json&PERIOD=P1D", gotData);
+
+  print("askdo");
 }
 
 // function time(){
