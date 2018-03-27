@@ -4,8 +4,8 @@ var x =0; //for animate
 function setup() {
   createCanvas(600, 600);
 // setInterval is a JavaScript function that repeats a specified time interval
-askDO();
- setInterval(askDO, 5000); //now loadJSON is in
+ askDO();//now loadJSON is in its own function, askDO 
+ setInterval(askDO, 5000);  //get data every 5 seconds (you can change this time to whatever you want)
 }
 
 //function for calling and loading the data 
@@ -65,24 +65,10 @@ function animate(){
 }
 
 function askDO(){
-  //loading JSON from a URL path. gotData is the callback, jsonp is for security  reasons
+  //loading JSON from a URL path. gotData is the callback
   loadJSON("https://ofmpub.epa.gov/rsig/rsigserver?SERVICE=NWIS&REQUEST=download&SITEID=01589485&PARAMS=00300&FORMAT=json&PERIOD=P1D", gotData);
 
   print("askdo");
 }
 
-// function time(){
-//   //let counter = 0;
-//   noCanvas();//limit animation
-  
-//   var timer = select('#timer');
-//   timer.html('0'); //insert text
-  
-//   function timeIt(){
-//     counter ++;
-//     timer.html(counter);
-//   }
-  
-//   setInterval(timeIt, 1000);//native function 1000ms =1 s
-//   //request animationframe is also another func
-// }
+
