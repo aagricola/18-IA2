@@ -51,7 +51,7 @@ For homework last week, you read the short essays from Madeline Schwartzman's la
 
 ## Resources
 
-[Golan Levin FaceOSC Processing Example](https://github.com/CreativeInquiry/FaceOSC-Templates/tree/master/processing)
+[Golan Levin FaceOSC Processing Example](https://github.com/CreativeInquiry/FaceOSC-Templates/tree/master/processing)  "FaceOSCReceiver" is the example we did together in class
 
 [Github for OpenCV library](https://github.com/atduskgreg/opencv-processing)
 
