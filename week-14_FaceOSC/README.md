@@ -51,10 +51,12 @@ For homework last week, you read the short essays from Madeline Schwartzman's la
 
 ## Resources
 
-[Documentation of an ITP workshop on face recognition and face tracking taught by Daniel Shiffman](https://github.com/shiffman/Face-It) - great processing examples and tutorials here
+[Documentation of OpenCV Haar Cascade](https://docs.opencv.org/3.4.1/d7/d8b/tutorial_py_face_detection.html)
 
 [Adam HArvey, CV Face detection Cascade visualized](https://vimeo.com/12774628),
 "This video visualizes the detection process of OpenCV's face detector. The algorithm uses the Viola Jones method of calculating the integral image and then performing some calculations on all the areas defined by the black and white rectangles to analyze the differences between the dark and light regions of a face."
+
+[Documentation of an ITP workshop on face recognition and face tracking taught by Daniel Shiffman](https://github.com/shiffman/Face-It) - great processing examples and tutorials here
 
 # Next Week:
 - look at what you made for Expanded Self Workshop
