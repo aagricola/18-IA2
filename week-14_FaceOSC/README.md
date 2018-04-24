@@ -51,6 +51,8 @@ For homework last week, you read the short essays from Madeline Schwartzman's la
 
 ## Resources
 
+[Golan Levin FaceOSC Processing Example](https://github.com/CreativeInquiry/FaceOSC-Templates/tree/master/processing)
+
 [Github for OpenCV library](https://github.com/atduskgreg/opencv-processing)
 
 [Documentation of OpenCV Haar Cascade](https://docs.opencv.org/3.4.1/d7/d8b/tutorial_py_face_detection.html)
